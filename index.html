@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="first">Firstname</label>
+        <input type="text" name="first" id="first"/>
+        <br><br>
+        <label for="middle">Middlename:</label>
+        <input type="text" name="middle" id="middle"/>
+        <br><br>
+        <label for="last">Lastname:</label>
+        <input type="text" name="last" id="last"/>
+        <br><br>
+        <label>Course :</label>
+        <select>
+            <option>Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>MBA</option>
+            <option>MCA</option>
+            <option>M.Tech</option>
+        </select>
+        <br><br>
+        <label for="genders">Gender :</label><br/>
+        <input type="radio" name="gender" id="male">
+        <label for="one">Male</label><br/>
+        <input type="radio" name="gender" id="female">
+        <label for="two">Female</label><br/>
+        <input type="radio" name="gender" id="other">
+        <label for="three">Other</label><br/><br/>
+        <label>
+            DOB
+            <input type="date"/>
+        </label>
+        <br/>
+        <label>
+            Phone :
+            <input type="text" value="+91" disabled size="2"/>
+            <input type="tel" maxlength="10"/>
+        </label>
+        <br/><br/>
+        <label>
+            Address
+            <br>
+            <textarea rows="5" cols="80"></textarea>
+        </label>
+        <br/>
+        <br/>
+        <label>
+            Email: 
+            <input type="text"/>
+        </label>
+        <br/><br/><br/>
+        <label>
+            Password:
+            <input type="password"/>
+        </label>
+        <br/><br/><br/>
+        <label>
+            Re-type password:
+            <input type="password"/>
+        </label>
+        <br/><br/>
+        <input type="checkbox" name="check" id="check"/>
+        <label for="check">Agree to terms and conditions</label>
+        <br/><br/>
+        <label>
+            Choose File
+            <input type="file"/>
+        </label>
+        <br/><br/>
+        <label>
+            Choose Color
+            <input type="color"/>
+        </label>
+        <br/><br/>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
